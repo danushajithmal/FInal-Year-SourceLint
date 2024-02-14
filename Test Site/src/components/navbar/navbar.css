@@ -1,0 +1,18 @@
+.navbar{
+    background-color: rgb(165, 253, 253);
+}
+.collapse{
+    justify-content: center;
+    margin-top: 0%;
+}
+
+.li-container{
+    font-size: medium;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.li-container:hover, .li-container:active{
+    background-color: rgb(250, 84, 84);
+    font-size: large;
+}

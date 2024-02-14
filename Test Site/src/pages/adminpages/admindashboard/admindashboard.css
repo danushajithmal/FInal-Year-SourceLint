@@ -1,0 +1,17 @@
+.admin-dash-back-image {
+  background-image: url("../../../components/icons/bgimage.jpg");
+  height: 850px;
+  margin-top: -5px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  padding: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .admin-dash-back-image {
+    margin-top: -100px;
+  }
+}
