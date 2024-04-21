@@ -1,19 +1,20 @@
 //Dynamic HTML Generation
-document.getElementById('output').innerHTML = userInput;
+const Input1 = 'ABC'
+document.getElementById('output').innerHTML = Input1;
 // For plain text
-document.getElementById('output').textContent = userInput;
+document.getElementById('output').textContent = userInput1;
 // For HTML content, with DOMPurify
-document.getElementById('output').innerHTML = DOMPurify.sanitize(userInput);
+document.getElementById('output').innerHTML = DOMPurify.encodeURI(userInput1);
 
 
 //DOM Manipulation
 var div = document.createElement('div');
-div.innerHTML = userInput;
+div.innerHTML = userInput1;
 document.body.appendChild(div);
 
 var div = document.createElement('div');
-div.textContent = userInput; // For plain text
-div.innerHTML = DOMPurify.sanitize(userInput); // Or, for HTML
+div.textContent = userInput; // For plain text  
+div.innerHTML = DOMPurify.encodeURI(userInput); // Or, for HTML
 document.body.appendChild(div);
 
 //AJAX responses
@@ -26,7 +27,7 @@ fetch('/api/data?query=' + userInput)
 fetch('/api/data?query=' + encodeURIComponent(userInput))
     .then(response => response.json())
     .then(data => {
-        document.getElementById('output').innerHTML = DOMPurify.sanitize(data.result);
+        document.getElementById('output').innerHTML = DOMPurify.encodeURI(data.result);
     });
 
 
@@ -51,31 +52,33 @@ document.getElementById('commentSection').innerHTML = template1;
 
 // Using a templating engine that escapes values automatically
 const template2 = `<div>User comment: ${userComment}</div>`;
-document.getElementById('commentSection').innerHTML = DOMPurify.sanitize(template2);
+document.getElementById('commentSection').innerHTML = DOMPurify.encodeURIComponent(template2);
 
 
 
-const userData1 = userInput;
-document.write('<div>' + userData + '</div>');
+const userData1 = userInput1;
+document.write('<div>' + userData1 + '</div>');
 
-const userData2 = userInput;
+const userData2 = userInput2;
 document.write('<div>' + encodeURIComponent(userData2) + '</div>');
 
 
 
-const data = userInput;
+const data = userInput1;
 eval(data);
 
-// If userInput is JSON data
-const data2 = userInput;
-eval(JSON.parse(data2));w
+const  data2 = userInput1;
+eval(encodeURI(data2));
 
-
-const userUrl = userInput; // User-supplied URL
+const userUrl = uservariable;
 document.getElementById('myLink').href = userUrl;
 
-const userStyle = userInput; // Potentially malicious style input
+const userUrl2 = encodeURI(uservariable2); 
+document.getElementById('myLink').href = userUrl2;
+
+
+const userStyle = decodeURI(userInput6); 
 document.getElementById('styledElement').style.cssText = userStyle;
 
-const userComment = decodeURIComponent(userInput);
+const userComment = encodeURIComponent(userInput1);
 document.getElementById('comment').innerHTML = userComment;
