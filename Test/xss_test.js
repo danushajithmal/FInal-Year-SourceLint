@@ -74,11 +74,6 @@ document.getElementById('myLink').href = userUrl2;
 const userUrl3 = uservariable;
 document.getElementById('myLink').href = encodeURI(userUrl3);
 
-
-
-
-
-
-
-const userComment = encodeURIComponent(userInput1);
+const userComment = userInput1;
 document.getElementById('comment').innerHTML = userComment;
+document.getElementById('comment').textContent = userComment;
