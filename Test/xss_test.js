@@ -1,3 +1,4 @@
+
 const Input1 = userInput1;
 document.getElementById('output').innerHTML = Input1;
 
