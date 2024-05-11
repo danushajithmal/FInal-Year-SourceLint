@@ -1,6 +1,7 @@
+
+
 //sample malicious CSS input
 const userInput = "color: red; background: url('javascript:alert(\"XSS\")')";
-
 //vulnerable use of the input
 const userStyle = userInput; 
 document.getElementById('styledElement').style.cssText = userStyle;
