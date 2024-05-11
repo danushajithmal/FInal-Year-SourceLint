@@ -1,8 +1,0 @@
-body {
-  overflow-x: hidden;
-}
-
-.hero-image {
-    background-image: url("../../components/icons/bgimage.jpg");
-    background-attachment: fixed;
-  }
