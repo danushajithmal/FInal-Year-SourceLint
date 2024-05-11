@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  color: white;
+}
+
+.greeting {
+  font-size: 120px;
+}
+
+@media screen and (max-width: 1102px) {
+  .greeting {
+    font-size: 100px; 
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .greeting {
+    font-size: 80px; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .greeting {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .greeting {
+    font-size: 40px; 
+  }
+}

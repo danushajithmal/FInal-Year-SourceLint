@@ -1,0 +1,103 @@
+<mxfile host="Electron" modified="2024-03-06T10:11:01.157Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="sX1dRf3UBYFRb3Bl7mof" version="23.1.5" type="device">
+  <diagram name="Page-1" id="kemWqWOYUYonCsCjMEFR">
+    <mxGraphModel dx="913" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MtLNezbkmg4zontVWxra-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="90" width="460" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-2" value="User" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="190" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-3" value="Admin" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="780" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-4" value="Vs code extesnsion" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="90" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-5" value="Install Extension" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="140" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-6" value="Save Code" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="240" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-7" value="View Detected Vulnerabilities" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="340" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-8" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MtLNezbkmg4zontVWxra-7" target="MtLNezbkmg4zontVWxra-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="560" y="374.5" as="sourcePoint" />
+            <mxPoint x="720" y="374.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-9" value="Analyze code" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="340" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-10" value="Detect vulnerable code" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="420" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-11" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0.723;exitY=0.983;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" target="MtLNezbkmg4zontVWxra-12" parent="1" source="MtLNezbkmg4zontVWxra-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="420" y="555" as="sourcePoint" />
+            <mxPoint x="640" y="554.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-12" value="Highlight detected code" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-15" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0.957;exitY=0.731;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="MtLNezbkmg4zontVWxra-7" target="MtLNezbkmg4zontVWxra-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="485" y="479" as="sourcePoint" />
+            <mxPoint x="585" y="479" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-16" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MtLNezbkmg4zontVWxra-2" target="MtLNezbkmg4zontVWxra-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="160" as="sourcePoint" />
+            <mxPoint x="340" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-17" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MtLNezbkmg4zontVWxra-2" target="MtLNezbkmg4zontVWxra-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="174.5" as="sourcePoint" />
+            <mxPoint x="340" y="174.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-18" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MtLNezbkmg4zontVWxra-2" target="MtLNezbkmg4zontVWxra-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="190" y="200" as="sourcePoint" />
+            <mxPoint x="350" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-19" value="Manage Vulnerability Database" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="140" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-20" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.52;entryY=0.627;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MtLNezbkmg4zontVWxra-19" target="MtLNezbkmg4zontVWxra-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="550" y="390" as="sourcePoint" />
+            <mxPoint x="710" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-23" value="Configuration" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="620" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-24" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MtLNezbkmg4zontVWxra-2" target="MtLNezbkmg4zontVWxra-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="460" as="sourcePoint" />
+            <mxPoint x="360" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-25" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MtLNezbkmg4zontVWxra-23" target="MtLNezbkmg4zontVWxra-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="510" y="660" as="sourcePoint" />
+            <mxPoint x="600" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MtLNezbkmg4zontVWxra-26" value="Vulnerability Options" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="620" width="140" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

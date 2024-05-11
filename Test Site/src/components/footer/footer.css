@@ -1,0 +1,12 @@
+
+.footer-container-fluid{
+    background-color: rgb(165, 253, 253);
+}
+
+.row{
+    padding: 30px;
+}
+.footer-link,a{
+    color: black;
+    text-decoration: underline;
+}
