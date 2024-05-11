@@ -1,3 +1,5 @@
+// Ignored Warning: 99739
+
 const nodemailer = require('nodemailer');
 const express = require('express');
 const app = express();
@@ -23,13 +25,6 @@ app.post('/send-email', async (req, res) => {
         subject: req.body.subject, // User input directly used in header
         text: 'Hello world?'
     };
-
-    // const mailOptions1 = {
-    //     from: 'example@example.com',
-    //     to: 'recipient@example.com',
-    //     subject: 'Welcome Email',
-    //     html: '<h1>Welcome to Our Service</h1><p>Thank you for signing up!</p>'
-    // };
 
     //method1
     transporter.sendMail(mailOptions1, function(error, info){
